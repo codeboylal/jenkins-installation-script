@@ -6,7 +6,7 @@ This script automates Jenkins installation on Debian-based systems.
 
 1. **Download the Script**: Clone a repository. 
     ```bash
-   (https://github.com/codeboylal/jenkins-installation-script.git)
+   git clone https://github.com/codeboylal/jenkins-installation-script.git
 
 2. **Change Directory**: Change directory to downloaded project:
 
