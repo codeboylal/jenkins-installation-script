@@ -1,12 +1,31 @@
 # Jenkins Installation Script for Debian
 
-This script automates the process of installing Jenkins on Debian-based systems. Jenkins is a popular open-source automation server used for continuous integration and continuous delivery (CI/CD) pipelines.
+This script automates Jenkins installation on Debian-based systems.
 
 ## Usage
 
-1. **Download the Script**: Download the `install_jenkins.sh` script to your Debian-based system.
+1. **Download the Script**: Clone or download the repository containing `Jenkins-Debian-Installation-Script.sh`.
 
-2. **Execute the Script**: Run the script with root privileges using the following command:
-   
+   Repository link: [Jenkins Installation Script](git@github.com:codeboylal/jenkins-installation-script.git)
+
+2. **Change Directory**: Change directory to downloaded project:
+
    ```bash
-   sudo bash install_jenkins.sh
+   cd jenkins-installation-script
+
+3. **Set Permissions**: Make the script executable with:
+
+   ```bash
+   sudo chmod +x Jenkins-Debian-Installation-Script.sh
+
+4. **Execute Command**: Execute and stay chill!!:
+
+   ```bash
+   ./Jenkins-Debian-Installation-Script.sh
+
+5. **Access Jenkins**: Access on browser:
+
+   ```bash
+   http://localhost:8080
+
+   
